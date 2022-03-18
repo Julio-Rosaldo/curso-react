@@ -2,6 +2,7 @@ import React, { Fragment, useState, useEffect } from "react";
 import { listGifs } from "../helpers/ListGifs";
 import { useFetchGifs } from "../hooks/useFetchGifs";
 import { ImageItem } from "./ImageItem";
+import PropTypes from 'prop-types';
 
 // Componente que recibe un elemento del arreglo "categories"
 // y lo renderiza
@@ -52,4 +53,8 @@ export const ImageGrid = ({ category }) => {
             </div>
         </Fragment>
     )
+}
+
+ImageGrid.propTypes = {
+    category: PropTypes.string.isRequired
 }

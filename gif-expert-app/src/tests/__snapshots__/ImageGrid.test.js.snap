@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en  Mostrar componente correctamente 1`] = `
+<Fragment>
+  <h3>
+    Naruto
+  </h3>
+  <p>
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas en  Renderizar imagenes al terminar su carga 1`] = `
+<Fragment>
+  <h3>
+    Naruto
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <span
+      key="01"
+    >
+      <ImageItem
+        image={
+          Object {
+            "id": "01",
+            "title": "Naruto",
+            "url": "www.algo.com",
+          }
+        }
+      />
+    </span>
+    <span
+      key="02"
+    >
+      <ImageItem
+        image={
+          Object {
+            "id": "02",
+            "title": "One Piece",
+            "url": "www.algo.com",
+          }
+        }
+      />
+    </span>
+  </div>
+</Fragment>
+`;

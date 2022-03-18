@@ -2,8 +2,9 @@ import React, { Fragment, useEffect, useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { ImageGrid } from './components/ImageGrid';
 
-export const GifExpertApp = () => {
-    const [categories, setCategories] = useState([]);
+export const GifExpertApp = ( {defaultCategories = []} ) => {
+
+    const [categories, setCategories] = useState(defaultCategories);
 
     function map() {
         // La funcion <array>.map regresa una funcion for each

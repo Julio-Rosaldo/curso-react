@@ -28,7 +28,7 @@ export const useFetchGifs = (category) => {
     // que se mantiene en memoria cuyas referencias de acceso son
     // los valores que se especifican como segundo argumento de la
     // funcion. Si alguno de estos valores cambia, la funcion que
-    // tenga como argumento el useEffect sera ejecutada nuevamente
+    // tenga como 1er argumento el useEffect sera ejecutada nuevamente
     // Si useEffect se ejecuta sin que alguno de estos valores
     // cambie, se regresara el estado en memoria que ya se tenia
     // previamente

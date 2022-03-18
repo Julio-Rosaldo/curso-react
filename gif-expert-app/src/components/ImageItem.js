@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from 'react';
+import PropTypes from 'prop-types';
 
 export const ImageItem = ({image}) => {
     return (
@@ -7,4 +8,8 @@ export const ImageItem = ({image}) => {
             <img src={image.url} alt={image.title}></img>
         </div>
     )
+}
+
+ImageItem.propTypes = {
+    image: PropTypes.object.isRequired
 }

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en  Mostrar componente correctamente 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Pruebas en  Mostrar lista de categorias 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <ImageGrid
+      category="Naruto"
+      key="Naruto"
+    />
+    <ImageGrid
+      category="One Piece"
+      key="One Piece"
+    />
+  </ol>
+</Fragment>
+`;
